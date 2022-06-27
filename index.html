@@ -35,10 +35,25 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  column-gap: 300px;
+  column-gap: 400px;
 
 }
 }
+
+.social_media_button{
+    display:flex;
+    margin-left: 45vw;
+    margin-right: 45vw;
+}
+@media screen and (min-width:480px){
+    .social_media_button{
+    display:flex;
+    margin-left: 47vw;
+    margin-right: 47vw;
+} 
+}
+    
+
 
 .subhead1{
     margin-top: -15px; 
@@ -208,8 +223,10 @@
     justify-content: flex-end;
     font-weight: 500;
     padding-top: 35px;
-    padding: -120px 30px;
-    column-gap: 5px;
+    /* padding: -120px 30px; */
+    column-gap: 1cm;
+    /* margin-left: 50vw; */
+    /* margin-right: 50vw; */
     padding-bottom: 30px;
     margin-bottom: 0px;
     background-color: whitesmoke;
@@ -224,14 +241,15 @@
     font-weight: 500;
     /* font-size: 60px; */
     padding-top: 35px;
-    padding: -120px 30px;
+    /* padding: -120px 30px; */
     padding-right: 30px;
-    column-gap:1cm;
+    column-gap:5cm;
     padding-bottom: 30px;
     margin-bottom: 0px;
     background-color: whitesmoke;
     width: 100vw;
 
+}
 }
 
 #about_para{
@@ -247,7 +265,7 @@
 }  
 }
 
-}
+
 a{
     text-decoration: none;
     color: black;
@@ -460,17 +478,17 @@ a{
 .fa-facebook {
   background: #3B5998;
   color: white;
-  margin-right: -180px;
+  /* margin-right: -180px;
    margin-left: 0px; 
-   text-align: center; 
+   text-align: center;  */
 }
 @media screen and (min-width:480px){
     .fa-facebook {
   background: #3B5998;
   color: white;
-  margin-right: -180px;
+  /* margin-right: -180px;
    margin-left: 1150px; 
-   text-align: center; 
+   text-align: center;  */
 } 
 }
 .fa-instagram {
@@ -554,9 +572,9 @@ a{
                 <hv></hv>
             </div>
             
-            <div style="margin-top: 400px; margin-right: 0px;">
+            <div style="margin-top: 400px; ">
                 <span style="font-size: 100px; color: #0693e3;">Hello, I'm</span><br>
-                <span style="font-size: 80px; padding-right: 10px;">Muhammad Nameer Anjum</span>
+                <span style="font-size: 80px; border: 1cm;">Muhammad Nameer Anjum</span>
                 <!-- <p style="font-size: 40px;">Hello, I'm<br>Muhammad Nameer Anjum</p> -->
             </div>
 
@@ -836,10 +854,15 @@ a{
             <footer style="background-color: #0693e3; width: 100vw; height: 280px; margin-bottom: -8px; margin-top: 0px;">
                 <p style="font-size: 60px; color:white ; text-align: center; margin-bottom: 20px;">MNA.</p>
                 <!-- <a href="mailto:hege@example.com">hege@example.com</a></p> -->
-                <div style="align-items: center;">
+                <!-- <div style="align-items: center;">
                 <a href="https://facebook.com/m.nameeranjum" class="fa fa-facebook"></a>
                 <a href="https://instagram.com/nameer5272" class="fa fa-instagram" style="margin-right: -180px;"></a>
                 <a href="https://www.linkedin.com/in/muhammad-nameer-anjum-687945241" class="fa fa-linkedin"></a>
+                </div> -->
+                <div class="social_media_button">
+                    <a href="https://facebook.com/m.nameeranjum" class="fa fa-facebook"></a>
+                    <a href="https://instagram.com/nameer5272" class="fa fa-instagram"></a>
+                    <a href="https://www.linkedin.com/in/muhammad-nameer-anjum-687945241" class="fa fa-linkedin"></a>
                 </div>
                 <!-- <form action="mailto:nameershafi@gmail.com" method="post" enctype="text/plain" style="margin-left: 200px; margin-top: 30px; font-size: xx-large; color: white; box-shadow: black;">
                     Name:<br>
