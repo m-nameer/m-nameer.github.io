@@ -1,0 +1,168 @@
+body{
+    margin: 0;
+    background-color: hsl(235, 21%, 11%);
+}
+
+
+#backcover{
+    width: 100%;
+}
+
+#backcover img{
+    width: 100vw;
+    height: 230px;
+}
+@media screen and (min-width: 500px){
+    #backcover img{
+        width: 100vw;
+        height: auto;
+    }
+
+}
+
+.header{
+    position: absolute;
+    z-index: 1;
+    font-family: 'Josefin Sans', sans-serif;
+    color: hsl(234, 39%, 85%);
+
+}
+
+#backcover p{
+    font-size: 2.5rem;
+    color: white;
+    left: 7%;
+}
+@media screen and (min-width: 500px){
+    #backcover p{
+        font-size: 3rem;
+        color: white;
+        left: 30%;
+    }
+
+}
+
+#backcover input{
+    left: 5%;
+    top: 15%;
+    width: 20rem;
+    height: 2.5rem;
+    padding-left: 1rem;
+    border-radius: 0.3rem;
+    font-size: 1.2rem;
+    background-color:hsl(235, 24%, 19%);
+}
+
+@media screen and (min-width: 500px){
+    #backcover input{
+        left: 30%;
+        top: 15%;
+        width: 35rem;
+        height: 2.5rem;
+        padding-left: 1rem;
+        border-radius: 0.3rem;
+        font-size: 1.2rem;
+        background-color:hsl(235, 24%, 19%);
+    }
+    }
+
+#backcover button{
+    z-index: 2;
+    height: 2.6795rem;
+    width: 2.5095555555rem;
+    top: 15.1055555555555555555555%;
+    left: 79.9%;
+    background-color:hsl(234, 11%, 52%);
+    color: hsl(234, 39%, 85%);
+    border: none;
+    border-radius: 0.3rem 0.3rem 0.3rem 0.3rem;
+    cursor: pointer;
+}
+@media screen and (min-width: 500px){
+    #backcover button{
+        z-index: 2;
+        height: 2.69rem;
+        width: 2.5rem;
+        top: 15.1%;
+        left: 67.48265%;
+        background-color:hsl(234, 11%, 52%);
+        color: hsl(234, 39%, 85%);
+        border: none;
+        border-radius: 0.3rem 0.3rem 0.3rem 0.3rem;
+        cursor: pointer;
+    }
+}
+
+#tasks{
+    position: absolute;
+    z-index: 1;
+    top: 24%;
+    left: 6%;
+    width: 81%;
+    min-height: 50vh;
+    background-color: hsl(235, 24%, 19%);
+    box-shadow: 0px 0px 20px 0px rgba(96, 94, 94, 0.623);
+    padding: 0px;
+}
+@media screen and (min-width: 500px){
+    #tasks{
+        position: absolute;
+        z-index: 1;
+        top: 28%;
+        left: 10%;
+        width: 83.58%;
+        min-height: 50vh;
+        background-color: hsl(235, 24%, 19%);
+        box-shadow: 0px 0px 20px 0px rgba(96, 94, 94, 0.623);
+        padding: 0px;
+    }
+}
+
+@media screen and (min-width: 500px){
+    #tasks{
+        position: absolute;
+        z-index: 1;
+        top: 28%;
+        left: 30%;
+        width: 40.5%;
+        min-height: 50vh;
+        background-color: hsl(235, 24%, 19%);
+        box-shadow: 0px 0px 20px 0px rgba(96, 94, 94, 0.623);
+        padding: 0px;
+    }
+
+}
+
+#tasks ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    border-radius: inherit;
+}
+
+#tasks ul li{
+    padding: 0.9rem 1.1rem 0.9rem 1.1rem;
+    cursor: pointer;  
+    color: hsl(234, 39%, 85%);
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#tasks ul li:hover {
+    background-color:  hsl(233, 14%, 35%);
+    border-radius: inherit;
+}
+
+/* @media screen and (min-width: 500px){
+    #backcover input{
+        left: 30%;
+        top: 15%;
+        width: 35rem;
+        height: 2.5rem;
+        padding-left: 1rem;
+        border-radius: 0.3rem;
+        font-size: 1.2rem;
+        background-color:hsl(235, 24%, 19%);
+    }
+    } */
+
