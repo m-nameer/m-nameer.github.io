@@ -1,6 +1,6 @@
 $(document).ready(()=>{
     const sendRequest = (city) => {
-        const url = `http://api.weatherapi.com/v1/current.json?key=99ea3a5bfdb44ce1b9e155002221507&q=${city}&aqi=no`
+        const url = `https://api.weatherapi.com/v1/current.json?key=99ea3a5bfdb44ce1b9e155002221507&q=${city}&aqi=no`
         
         $.get(url, function(response){
             $("#icon-image").attr("src",response.current.condition.icon)
